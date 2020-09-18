@@ -6,7 +6,7 @@
     background: var(--first-color);
 }
 svg{
-    fill: #fff;
+    fill: rgb(255, 255, 255);
     position: fixed;
     z-index: 1;
 }

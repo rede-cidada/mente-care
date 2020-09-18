@@ -3,10 +3,10 @@ import './background.css'
 
 const Background = () => (
     <div className="background">
-
-        <svg className="svg-top" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-20.88,23.97 C111.74,-18.47 331.83,54.57 546.83,-1.68 L567.15,-53.98 L0.00,0.00 Z" ></path></svg>
-        <svg className="svg-bottom" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-27.09,150.28 C141.65,75.28 330.13,188.77 511.85,110.82 L510.15,275.62 L-34.99,310.15 Z" ></path></svg>
-         </div>
+        <svg className="svg-bottom" opacity="0.6" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-2.26,121.67 C150.00,150.00 431.71,40.75 602.71,159.17 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
+        <svg className="svg-bottom" opacity="0.5" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-2.26,121.67 C46.27,71.33 425.50,162.13 606.09,133.52 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
+        <svg className="svg-bottom" opacity="0.3" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-86.35,94.03 C2.25,53.58 400.10,247.98 596.49,21.02 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
+    </div>
 )
 
 
