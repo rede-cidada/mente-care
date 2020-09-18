@@ -1,0 +1,19 @@
+.header-content{
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+.header-content .navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 0px 50px;
+}
+.header-content .navBar .ul-header{
+    display: flex;
+}
+.header-content .navBar .ul-header .li-header{  
+    padding: 10px;
+}
