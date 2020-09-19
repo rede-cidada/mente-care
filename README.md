@@ -1,6 +1,6 @@
 # Mente Care 🧠💚
 
-Mente care é uma proposta de aplicativo/site, feito em react, que tem por objetivo ajudar pessoas a encontrar atendimento psicológico acessível e próximo a sua localidade. 
+Mente care é uma proposta de aplicativo/site, feito em React, que tem por objetivo ajudar pessoas a encontrar atendimento psicológico acessível e próximo a sua localidade. 
 
 ## Protótipo :
 
