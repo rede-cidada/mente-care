@@ -1,7 +1,6 @@
 import React from 'react'
-import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
 import Background from '../components/backgroundSvg/Background'
-
 
 
 
@@ -9,9 +8,9 @@ import Background from '../components/backgroundSvg/Background'
 
 function App() {
   return (
-    <div className="container">
+    <div className="footer-container">
     <Background />
-      <Header />
+    <Footer />
      
     </div>
 
