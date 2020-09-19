@@ -1,6 +1,23 @@
 .container {
   width: 100%;
   height: 100vh;
-  background: var(--first-color);
+
   font-family: "Montserrat", sans-serif;
+  background: linear-gradient(45deg, var(--background-first-color), var(--background-second-color), var(--background-third-color), var(--background-fourth-color));
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
 }
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
