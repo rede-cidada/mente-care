@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  height: 88%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  line-height: 45px;
+  color: #0b3346;
+  text-align: center;
+}
+.home-paragrafo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.home-input {
+  border-radius: 5px;
+  width: 50%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.home.img {
+  margin-bottom: 50px;
+}

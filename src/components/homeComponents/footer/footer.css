@@ -1,15 +1,12 @@
 .footer-container {
    width: 100%;
-   height: 50vh;
+   height: 40%;
    background: #ffffff;
    align-items: center;
    justify-content: center;
    display: flex;
    font-family: 'Montserrat', sans-serif;
-   
-  
 }
-
 .txt-box {
     display: flex;
     justify-content: center;
@@ -18,7 +15,6 @@
     border-bottom: 2px solid #DDD;
     
 }
-
 .box {
     display: flex;
     justify-content: space-evenly;
@@ -28,7 +24,6 @@
     width: 33.33%;
    
 }
-
 .list-list {
     padding: 10px;
     font-size: 18px;
@@ -42,11 +37,9 @@
     font-size: 16px;
     
 }
-
-
 .copyr {
    position: absolute;
-   bottom: -45%;
+   bottom: -35%;
 }
 
 

@@ -4,6 +4,7 @@ import './footer.css'
 
 const Footer = () => (
     <footer className="footer-container">
+         
          <div className="txt-box">
              <div className="box">
                 <ul className="list">
