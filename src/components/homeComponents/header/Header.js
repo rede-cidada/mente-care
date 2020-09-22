@@ -1,24 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './header.css'
 
-const Header = () => (
-    <header className="header-content">
-        <nav className="navBar">
+const Header = () => {
 
-            <h1 className="Logo">Logo</h1>
+    const [showMenu, setShowMenu] = useState(false)
 
-            <div className="menu-mobile">
-                <div className="hamburguer"></div>
-            </div>
+    const show = () =>{
+        setShowMenu(!showMenu)
+        console.log(showMenu)
+        
+    }
 
-            <ul className="ul-header">
-                <li className="li-header">Sobre</li>
-                <li className="li-header">Quem Somos</li>
-                <li className="li-header" >Fale Conosco</li>
-                <li className="li-header">ENTRAR</li>
-            </ul>
-        </nav>
-    </header>
-)
+
+    return (
+        <header className="header-content">
+            <nav className="navBar">
+
+                <h1 className="Logo" >Logo</h1>
+
+                <div className="menu-mobile" onClick={show} >
+                    <div className="hamburguer"></div>
+                </div>
+
+                <ul className={showMenu !== true ? 'ul-header': 'ul-header show-ul'}>
+                    <li className="li-header">Sobre</li>
+                    <li className="li-header">Quem Somos</li>
+                    <li className="li-header" >Fale Conosco</li>
+                    <li className="li-header">ENTRAR</li>
+                </ul>
+
+            </nav>
+        </header>
+    )
+}
+
+
+
 
 export default Header 
