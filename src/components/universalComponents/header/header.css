@@ -65,10 +65,9 @@
 
 .header-content .navBar  .li-header {
   padding: 20px;
-
   font-weight: 600;
   letter-spacing: 3px;
-  
+
   color: var(--third-color);
   
 }
@@ -81,7 +80,7 @@
   .ul-header {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     position: relative;
     background: transparent;
     width: 100%;

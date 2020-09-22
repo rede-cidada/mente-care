@@ -2,7 +2,7 @@ import React from "react";
 import Map from "../../../assets/img/mapa.jpeg";
 import Search from '../../../assets/img/search.png'
 import "./homecontent.css"
-import Svgs from '../backgroundSvg/Svgs'
+import Svgs from '../../universalComponents/backgroundSvg/Svgs'
 
 
 

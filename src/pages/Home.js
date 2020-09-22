@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/homeComponents/header/Header'
+import Header from '../components/universalComponents/header/Header'
 import HomeContent from '../components/homeComponents/homeContent/HomeContent'
-import Footer from '../components/homeComponents/footer/Footer'
+import Footer from '../components/universalComponents/footer/Footer'
 import './home.css'
 
 function App() {
