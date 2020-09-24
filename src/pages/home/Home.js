@@ -4,7 +4,9 @@ import Header from '../../components/universalComponents/header/Header'
 import HomeContent from '../../components/homeContent/HomeContent'
 import About from '../../components/about/About'
 import Footer from '../../components/universalComponents/footer/Footer'
+import Cadastro from '../../components/cadastro/Cadastro'
 import './home.css'
+import  Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 
 function App() {
   return (
@@ -21,9 +23,9 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-
         </Switch>
 
+    < Svgs />
         <Footer />
       </div>
 

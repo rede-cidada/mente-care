@@ -29,7 +29,7 @@ const Header = () => {
                     <li className="li-header"><Link to="/about">Sobre</Link></li>
                     <li className="li-header">Quem Somos</li>
                     <li className="li-header">Fale Conosco</li>
-                    <li className="li-header">ENTRAR</li>
+                    <li className="li-header"><Link to="/cadastro">Entrar</Link></li>
 
                 </ul>
 
