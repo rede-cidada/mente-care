@@ -1,12 +1,11 @@
 import React from 'react'
-import Svgs from '../universalComponents/backgroundSvg/Svgs'
-import Img from '../about/img/img-about.jpeg'
+import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
+import Img from './assets/img-about.jpeg'
 import "../about/about.css"
 
 const About = () => (
     <>
-        <Svgs />
-        
+ <Svgs />
         <section className="box-about">  
         
             <div className="box-img">

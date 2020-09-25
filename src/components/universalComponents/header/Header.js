@@ -17,7 +17,7 @@ const Header = () => {
         <header className="header-content">
             <nav className="navBar">
 
-                <h1 className="Logo" >Logo</h1>
+              <Link  className="link logo" to="/">MC</Link> 
 
                 <div className="menu-mobile" onClick={show} >
                     <div className="hamburguer"></div>
@@ -26,10 +26,10 @@ const Header = () => {
 
                 <ul className={showMenu !== true ? 'ul-header' : 'ul-header show-ul'}>
 
-                    <li className="li-header"><Link to="/about">Sobre</Link></li>
-                    <li className="li-header"><Link to="/aboutUs">Quem Somos</Link></li>
+                    <li className="li-header"><Link className="link" to="/about">Sobre o App</Link></li>
+                    <li className="li-header"><Link className="link" to="/aboutUs">Quem Somos</Link></li>
                     <li className="li-header">Fale Conosco</li>
-                    <li className="li-header"><Link to="/cadastro">Entrar</Link></li>
+                    <li className="li-header"><Link className="link" to="/cadastro">Entrar</Link></li>
 
                 </ul>
 

@@ -1,8 +1,10 @@
 import React from 'react';
 import './cadastro.css';
+import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 
 const Cadastro = () => (
   <div className='content'>
+     <Svgs />
 
     <section className='cadastro-texts'>
     <h1 className='cadastro-texts-titulo'>Divulgue sua Clínica</h1>

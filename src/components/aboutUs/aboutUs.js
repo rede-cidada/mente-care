@@ -1,7 +1,6 @@
 import React from "react";
 import Svgs from "../universalComponents/backgroundSvg/Svgs";
 import "./aboutUs.css";
-
 import alison from "./assets/am.png";
 import luciana from "./assets/lc.png";
 import markus from "./assets/md.jpeg";

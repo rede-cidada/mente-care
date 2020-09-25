@@ -15,7 +15,7 @@ const Footer = () => (
         </div>
 
         <div className="box">
-          <h1 className="footer-logo">LOGO</h1>
+          <h1 className="footer-logo">MC</h1>
         </div>
 
         <div className="box">

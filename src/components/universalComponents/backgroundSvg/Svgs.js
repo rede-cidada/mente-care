@@ -3,9 +3,9 @@ import './Svgs.css'
 
 const Svgs = () => (
     <div className="Svgs">
-        <svg className="first-svg" opacity="1" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-2.26,121.67 C150.00,150.00 431.71,40.75 602.71,159.17 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
-        <svg className="second-svg" opacity="0.5" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-2.26,121.67 C46.27,71.33 425.50,162.13 606.09,133.52 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
-        <svg className="third-svg" opacity="0.3" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-86.35,94.03 C2.25,53.58 400.10,247.98 596.49,21.02 L513.54,198.65 L0.00,150.00 Z" ></path></svg>
+        <svg className="first-svg" opacity="1" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-13.98,143.58 C149.90,150.00 359.03,122.85 522.60,144.57 L499.67,150.00 L0.00,150.00 Z" ></path></svg>
+        <svg className="second-svg" opacity="0.5" viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-13.98,143.58 C30.91,127.78 347.06,147.52 522.60,144.57 L499.67,150.00 L0.00,150.00 Z" ></path></svg>
+        <svg className="third-svg" opacity="0.5"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-13.98,143.58 C33.90,118.90 122.66,133.72 520.61,147.52 L499.67,169.23 L0.00,150.00 Z" ></path></svg>
     </div>
 )
 

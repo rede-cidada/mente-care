@@ -1,13 +1,15 @@
 .content {
+
   text-align: center;
   color: #0b3346;
   font-size: max(12px , 1.5vw);
   display: flex;
   align-items: center;
-  margin-bottom: 10%;
+
   justify-content: center;
   width: 100%;
-  padding-top: 5%;
+  height: 93vh;
+ 
 }
 
 .cadastro-texts {
@@ -21,12 +23,12 @@
 .cadastro-texts-titulo {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 30px; 
+ font-size: max(30px, 3vw);
 }
 
 .cadastro-texts-subtitulo {
   margin-bottom: 20px;
-  font-size: 23px; 
+  font-size: max(23px, 2.3vw);
 }
 
 .cadastro-div-inputs {
@@ -37,11 +39,12 @@ width: 100%;
 
 .cadastro-inputs {
   padding: 10px; 
-  margin-bottom: 10px; 
+  margin-bottom: 15px; 
   border-radius: 8px;
   border: none;
-  width: 45%;
-  height: 35px;
+  width: 70%;
+  height: 60px;
+
 }
 
 .cadastro-button { 
@@ -52,6 +55,17 @@ width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border: none;
-  width: 45%;
-  height: 35px; 
+  width: 70%;
+  height: 60px;
+}
+
+@media(max-width:673px){
+  .content{
+    flex-direction: column;
+  }
+  .cadastro-div-inputs{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
 }

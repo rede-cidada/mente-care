@@ -4,21 +4,19 @@ import Header from '../../components/universalComponents/header/Header'
 import HomeContent from '../../components/homeContent/HomeContent'
 import About from '../../components/about/About'
 import Footer from '../../components/universalComponents/footer/Footer'
-import Cadastro from '../../components/cadastro/Cadastro'
-import './home.css'
-<<<<<<< HEAD
 import AboutUs from '../../components/aboutUs/aboutUs'
-=======
-import  Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
->>>>>>> a4fe7e9038c790bdc7447186c7371bed6f5b14d6
+import './home.css'
+import ErrorPage from '../../components/errorPage/ErrorPage'
+import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
+import Cadastro from '../../components/cadastro/Cadastro'
+
 
 function App() {
   return (
     <BrowserRouter>
       < div className="container">
-
         <Header />
-
+        
         <Switch>
           <Route exact path="/">
             <HomeContent />
@@ -26,21 +24,24 @@ function App() {
 
           <Route exact path="/about">
             <About />
-<<<<<<< HEAD
-          </Route>       
-=======
           </Route>
-<<<<<<< HEAD
->>>>>>> 59620e0581fc351dbd4aab11afad539ce5016a2c
-
+          
           <Route exact path="/aboutUs">
-            <AboutUs/>
+            <AboutUs />
           </Route>
-=======
->>>>>>> a4fe7e9038c790bdc7447186c7371bed6f5b14d6
-        </Switch>
+    
+          <Route exact path="/cadastro">
+            <Cadastro />
+          </Route>
 
-    < Svgs />
+          <Route >
+            <ErrorPage />
+          </Route>
+
+        </Switch>
+        
+        
+
         <Footer />
       </div>
 
