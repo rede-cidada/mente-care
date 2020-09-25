@@ -1,6 +1,6 @@
 import React from 'react'
 import Svgs from '../universalComponents/backgroundSvg/Svgs'
-import Img from '../../assets/img/img-about.jpeg'
+import Img from '../about/img/img-about.jpeg'
 import "../about/about.css"
 
 const About = () => (
