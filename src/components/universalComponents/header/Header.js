@@ -27,7 +27,7 @@ const Header = () => {
                 <ul className={showMenu !== true ? 'ul-header' : 'ul-header show-ul'}>
 
                     <li className="li-header"><Link to="/about">Sobre</Link></li>
-                    <li className="li-header">Quem Somos</li>
+                    <li className="li-header"><Link to="/aboutUs">Quem Somos</Link></li>
                     <li className="li-header">Fale Conosco</li>
                     <li className="li-header">ENTRAR</li>
 

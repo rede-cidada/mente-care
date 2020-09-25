@@ -5,6 +5,7 @@ import HomeContent from '../../components/homeContent/HomeContent'
 import About from '../../components/about/About'
 import Footer from '../../components/universalComponents/footer/Footer'
 import './home.css'
+import AboutUs from '../../components/aboutUs/aboutUs'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             <About />
           </Route>
 
+          <Route exact path="/aboutUs">
+            <AboutUs/>
+          </Route>
         </Switch>
 
         <Footer />
