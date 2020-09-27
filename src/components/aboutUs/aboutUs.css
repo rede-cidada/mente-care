@@ -1,13 +1,32 @@
 .aboutUs{
     margin: 0 auto;
-    padding:20px 45px 20px 45px;
+    padding:100px 0;
     position: relative;
     width: 100%;
-}
-
+    background: linear-gradient(45deg, var(--background-first-color), var(--background-second-color), var(--background-third-color), var(--background-fourth-color));
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+  }
+  
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 /* sobre */
-
+article{
+    background-color: white;
+    padding: 10px;
+}
 .aboutContent{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,14 +37,14 @@
     align-items: center;
    padding: 50px;
     text-align: center;
+    font-size: max(20px, 1.8vw);
 }
+
 .aboutContent article{
     max-width: 700px;
 }
 .txt{
-    color: black;
     padding:20px 0px 20px 45px;
-   
 }
 
 .txtBold{
@@ -35,6 +54,7 @@
 
 @media(max-width:700px){
     .aboutContent{
+    
         flex-direction: column;
     }
     .aboutTitle{
@@ -42,23 +62,31 @@
     }
     .txt{
         padding:20px 0px;
-        color: black;
+    
     }
 }
-
-
 /* team */
-
-
 .titleTeam{
+
     margin-top: 100px;
     margin-bottom: 80px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 25px;
-   
+    font-size: max(20px, 3vw);
+    position: relative;
+}
+.titleTeam::before{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 5px;
 }
 .team{
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

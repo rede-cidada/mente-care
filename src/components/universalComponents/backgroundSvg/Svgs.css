@@ -1,4 +1,4 @@
-svg{
+.svg{
     fill: rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
@@ -60,3 +60,12 @@ svg{
         bottom: 00px;
     }
 } 
+
+
+@media (max-width:650px){
+
+    .third-svg, .second-svg, .first-svg{
+animation: none;
+    }
+   
+}

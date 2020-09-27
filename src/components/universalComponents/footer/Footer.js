@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import mentelogo from '../header/assets/SVG/Ativo 5.png'
 
 
 const Footer = () => (
@@ -15,7 +16,8 @@ const Footer = () => (
         </div>
 
         <div className="box">
-          <h1 className="footer-logo">MC</h1>
+         <img className="footer-logo" src={mentelogo} alt="logo"/>
+      
         </div>
 
         <div className="box">

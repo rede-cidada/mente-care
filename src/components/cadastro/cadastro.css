@@ -32,6 +32,8 @@
 }
 
 .cadastro-div-inputs {
+  position: relative;
+  z-index: 2;
 display: flex; 
 flex-direction: column;
 width: 100%;

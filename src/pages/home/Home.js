@@ -7,7 +7,7 @@ import Footer from '../../components/universalComponents/footer/Footer'
 import AboutUs from '../../components/aboutUs/aboutUs'
 import './home.css'
 import ErrorPage from '../../components/errorPage/ErrorPage'
-import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
+import Login from '../../components/login/Login'
 import Cadastro from '../../components/cadastro/Cadastro'
 
 
@@ -33,6 +33,12 @@ function App() {
           <Route exact path="/cadastro">
             <Cadastro />
           </Route>
+
+
+          <Route exact path="/entrar">
+            <Login />
+          </Route>
+
 
           <Route >
             <ErrorPage />

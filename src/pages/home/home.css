@@ -22,5 +22,5 @@
 
 
 .link{
-  color: black;
+  color: var(--third-color);
 }
