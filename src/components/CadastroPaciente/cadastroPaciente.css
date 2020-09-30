@@ -1,0 +1,71 @@
+.content {
+    text-align: center;
+    color: #0b3346;
+    font-size: max(12px, 1.5vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 93vh;
+  }
+  
+  .form-paciente-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px; 
+  }
+  
+  .form-paciente-texts-titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: max(30px, 3vw);
+  }
+  
+  .form-paciente-texts-subtitulo {
+    margin-bottom: 20px;
+    font-size: max(23px, 2.3vw);
+  }
+  
+  .form-paciente-inputs-geral {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .form-paciente-inputs {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    width: 70%;
+    height: 60px;
+  }
+  
+  .form-paciente-button {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #0b3346;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border: none;
+    width: 70%;
+    height: 60px;
+  }
+  
+  @media (max-width: 673px) {
+    .content {
+      flex-direction: column;
+    }
+    .form-paciente-inputs-geral {
+      margin-top: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

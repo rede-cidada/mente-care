@@ -9,84 +9,56 @@ import './home.css'
 import ErrorPage from '../../components/errorPage/ErrorPage'
 import Login from '../../components/login/Login'
 import Cadastro from '../../components/cadastro/Cadastro'
+import CadastroPaciente from '../../components/CadastroPaciente/CadastroPaciente'
 import List from '../../components/list/list'
 
 function App() {
-    return ( <
-        BrowserRouter >
-        <
-        div className = "container" >
-        <
-        Header / >
+    return ( 
+        <BrowserRouter >
+        <div className = "container" >
+        <Header / >
 
-        <
-        Switch >
-        <
-        Route exact path = "/" >
-        <
-        HomeContent / >
-        <
-        /Route>
+        <Switch >
+        <Route exact path = "/" >
+        <HomeContent / >
+        </Route>
 
-        <
-        Route exact path = "/about" >
-        <
-        About / >
-        <
-        /Route>
+        <Route exact path = "/about" >
+        <About / >
+        </Route>
 
-        <
-        Route exact path = "/aboutUs" >
-        <
-        AboutUs / >
-        <
-        /Route>
+        <Route exact path = "/aboutUs" >
+        <AboutUs / >
+        </Route>
 
-        <
-        Route exact path = "/cadastro" >
-        <
-        Cadastro / >
-        <
-        /Route>
+        <Route exact path = "/cadastro" >
+        <Cadastro / >
+        </Route>
+
+        <Route exact path="/cadastroPaciente">
+        <CadastroPaciente />
+        </Route>
 
 
-        <
-        Route exact path = "/entrar" >
-        <
-        Login / >
-        <
-        /Route>
+        <Route exact path = "/entrar" >
+        <Login / >
+        </Route>
 
 
-        <
-        Route exact path = "/list" >
-        <
-        List / >
-        <
-        /Route>
+        <Route exact path = "/list" >
+        <List / >
+        </Route>
 
+        <Route >
+        <ErrorPage / >
+        </Route>
 
-        <
-        Route >
-        <
-        ErrorPage / >
-        <
-        /Route>
+        </Switch>
 
-        <
-        /Switch>
+        <Footer / >
+        </div>
 
-
-
-        <
-        Footer / >
-        <
-        /div>
-
-        <
-        /BrowserRouter>
-
-
+        </BrowserRouter>
     )
 }
 
