@@ -5,7 +5,8 @@ import logo2 from "./assets/logo2.jpg";
 import logo3 from "./assets/logo3.jpg";
 import logo1 from "./assets/logo1.png";
 
-let titulo = [
+
+/* let titulo = [
     "Clínica viva+",
     "Mental Health",
     "Clínica Care life",
@@ -16,7 +17,7 @@ let descricao = [
     "A mente é algo complexo por isso nos lhe ajudamos a entendela.",
     "Cuidar da sua saúde mental é o nosso objetivo!",
     "DR. formando em psicologia pela UFPE, disponivel para lhe atender gratuitamente!"
-]
+] */
 
 
 const List = () => (
@@ -25,7 +26,8 @@ const List = () => (
 <div className = "card" >
          <div className = "img" >
    
-             <img src = { logo1 }/>
+             <img src = { logo1 } alt ="logo"/>
+             
     
          </div > 
    
@@ -45,7 +47,7 @@ const List = () => (
         <div className = "card" >
          <div className = "img" >
    
-             <img src = { logo2 }/>
+             <img src = { logo2 } alt ="logo"/>
     
          </div > 
    
@@ -65,7 +67,7 @@ const List = () => (
     <div className = "card" >
    
         <div className = "img" >
-          <img src = { logo3 }/>
+          <img src = { logo3 } alt ="logo"/>
         </div > 
      <div className = "cardInfo" >
     
