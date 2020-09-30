@@ -9,6 +9,7 @@ import './home.css'
 import ErrorPage from '../../components/errorPage/ErrorPage'
 import Login from '../../components/login/Login'
 import Cadastro from '../../components/cadastro/Cadastro'
+import Modal from '../../components/modal/Modal'
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
             <Cadastro />
           </Route>
 
+          <Route exact path="/modal">
+            <Modal />
+          </Route>
 
           <Route exact path="/entrar">
             <Login />
