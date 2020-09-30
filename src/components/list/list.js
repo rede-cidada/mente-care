@@ -23,6 +23,7 @@ let descricao = [
 const List = () => (
 
     <div className="divMain">
+        <Svgs />
 <div className = "card" >
          <div className = "img" >
    
