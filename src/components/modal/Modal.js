@@ -26,7 +26,6 @@ const Modal = () => (
                     <option value="maisProcurados">Mais procurados</option>
                     <option value="precoCrescente">Preço crescente</option>         
                     <option value="precooDecrescente">Preço decrescente</option>
-
                 </select>               
             </div>
 

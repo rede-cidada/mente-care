@@ -26,7 +26,7 @@ const Login = () => {
                 <legend>Entrar</legend>
                 <input className='login-inputs' value={value} onChange={(e) => setValue(e.target.value)} type='text' placeholder='Email' />
                 <input className='login-inputs' value={value2} onChange={(e) => setValue2(e.target.value2)} type='text' placeholder='Senha' />
-                <Link className="link-footer">Ainda não cadastrado ? Cadastre-se agora</Link>
+                <Link to="/cadastroPaciente" className="link-footer">Ainda não cadastrado ? Cadastre-se agora</Link>
                 <button className="login-button" onClick={autenticar}>Entrar</button>
             </form>
 
