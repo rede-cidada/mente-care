@@ -10,8 +10,8 @@ import ErrorPage from '../../components/errorPage/ErrorPage'
 import Login from '../../components/login/Login'
 import Cadastro from '../../components/cadastro/Cadastro'
 import Modal from '../../components/modal/Modal'
-
-
+import CadastroPaciente from '../../components/CadastroPaciente/CadastroPaciente'
+import List from '../../components/list/list'
 function App() {
   return (
     <BrowserRouter>
@@ -35,6 +35,23 @@ function App() {
             <Cadastro />
           </Route>
          
+         
+          <Route exact path="/modal">
+            <Modal />
+          </Route>
+         
+         
+          <Route exact path="/cadastroPaciente">
+            <CadastroPaciente />
+          </Route>
+         
+         
+          <Route exact path="/list">
+            <List />
+          </Route>
+         
+         
+
 
           <Route exact path="/entrar">
             <Login />

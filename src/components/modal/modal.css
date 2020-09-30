@@ -1,7 +1,6 @@
-.content {
+.content-modal {
     flex-direction: column;
 } 
-
 .modal-titulo {
     text-align: center;
     font-family: sans-serif;

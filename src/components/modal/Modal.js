@@ -5,7 +5,7 @@ import Svgs from "../../components/universalComponents/backgroundSvg/Svgs";
 
 const Modal = () => (
     
-    <section className="content">
+    <section className="content-modal">
 
         <div calsss="box-titulo">
             <h1 className="modal-titulo">Titulo Modal</h1>     
