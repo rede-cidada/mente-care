@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 100%;
   padding: 0px 10px;
 }
@@ -72,7 +71,23 @@
 .header-content .navBar  .li-header {
   padding: 25px;
   font-weight: 400;
+}
+.link{
+  position: relative;
+}
 
+.link::before{
+  position: absolute;
+  bottom: -5px;
+  content:"";
+  width: 00%;
+  height: 3px;
+  background-color: cadetblue;
+  transition: 0.4s;
+}
+
+.link:hover::before{
+ width: 100%;
 }
 
 @media (min-width:950px){

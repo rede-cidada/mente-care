@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "./assets/mapa.jpeg";
+
 import Search from './assets/search.png'
 import "./homecontent.css"
 import Svgs from '../universalComponents/backgroundSvg/Svgs'
@@ -18,7 +18,7 @@ const HomeContent = () => (
       <button className='home-button'><Link to="/list"><img src={Search} width="20" alt="" /></Link></button>
     </form>
     <h3 className='home-h3'>OU veja algumas opções perto de você</h3>
-    <img className='home-img' src={Map} alt='mapa de um bairro' />
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15797.248322967373!2d-34.93949680298508!3d-8.171281031912823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitais!5e0!3m2!1spt-BR!2sbr!4v1601579258213!5m2!1spt-BR!2sbr" width="350" height="250" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
   </div>
 );
