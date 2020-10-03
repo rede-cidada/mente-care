@@ -11,7 +11,7 @@ const FaleConosco = () => (
     <div className='faleConosco-texts'>
     <h1 className='faleConosco-texts1'>Quer falar com</h1>
     <h1 className='faleConosco-texts1'>a gente?</h1>
-    <p className='faleConosco-texts2'>É só mandar sua mensagem por aqui ou por nossas redes.</p>
+    <p className='faleConosco-texts2'>É só mandar sua mensagem por aqui ou por nossas redes....</p>
     <p className='faleConosco-texts2'></p>
     </div>
     <div className='faleConosco-form-area'>
