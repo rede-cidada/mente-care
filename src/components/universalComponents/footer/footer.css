@@ -34,6 +34,10 @@
   width: 33.33%;
   
 }
+.box p {
+  line-height: 26px; 
+}
+
 .box .txt{
   color: var(--third-color);
 }
@@ -56,6 +60,25 @@
   align-items: center;
   height: 30%;
   color: var(--third-color);
+  margin-top: 15px;
+}
+
+.copyr-icones {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  color: var(--third-color);
+}
+
+.copyr-icones2 a {
+  display: inline-flex;
+  padding: 5px;
+}
+
+.copyr-icones2 img {
+  height: 26px;
 }
 
 @media(max-width:900px){
@@ -75,6 +98,10 @@
         height: 90%;
       }
       .copyr {
+        height: 10%;
+        margin-bottom: 5px;
+      }
+      .copyr-icones {
         height: 10%;
       }
 }

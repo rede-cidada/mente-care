@@ -1,6 +1,9 @@
 import React from 'react'
 import './footer.css'
 import mentelogo from '../header/assets/SVG/Ativo 5.png'
+import instagram from './assets/icon-instagram.png';
+import facebook from './assets/icon-facebook.png';
+import twitter from './assets/icon-twitter.png';
 
 
 const Footer = () => (
@@ -22,21 +25,24 @@ const Footer = () => (
 
         <div className="box">
           <p className="txt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A Mente Care tem por objetivo ajudar pessoas a encontrar atendimento 
+          psicológico acessível e próximo a sua localidade.
              </p>
         </div>
       </div>
     </div>
     <div className="copyr">
-      <p>Copyright</p>
+      <p>fale@mentecare.com.br</p>
+    </div>
+    <div className="copyr-icones">
+    <p>Siga a Mente Care</p>
     </div>
 
-
-
-
-
-
+    <article className="copyr-icones2">
+    <a href="https://www.instagram.com/" target="_blank"><img src={instagram} /></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src={facebook} /></a>
+    <a href="https://www.twitter.com/" target="_blank"><img src={twitter} /></a>
+    </article>
 
   </footer>
 
