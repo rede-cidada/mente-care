@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.sliderBx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px  auto ;
+  border: 2px solid #c3c3c3;
+  width: 850px;
+  height: 450px;
+}
+
+.slider {
+  width: 800px;
+  height: 400px;
+  background: url(./img/cadastro.png);
+  background-size: cover;
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+
+@keyframes slide {
+  25%{
+      
+      background: url(./img/mapa.png);
+      background-size: cover;
+  }
+  50%{
+           
+      background: url(./img/ajuda.png);
+      background-size: cover;
+  }
+  75%{
+      
+      background: url(./img/sobre.png);
+      background-size: cover;
+  }
+  100%{
+     
+      background: url(./img/cadastro.png);
+      background-size: cover;
+  }
+}
+
+.info-section1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.info-section2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.ansiedade-info {
+  background: #7bfada;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info1 {
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.part1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 40px 20px;
+}
+.ansiedade-txt {
+  float: right;
+  width: 50%;
+  margin: 30px;
+}
+.fig1 {
+  width: 40%;
+  height: 280px;
+  margin: 50px 0;
+}
+.part2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 20px 20px;
+}
+.fig2 {
+  width: 40%;
+}
+
+.ansiedade-txt2 {
+  float: left;
+  width: 50%;
+  margin: 30px;
+}

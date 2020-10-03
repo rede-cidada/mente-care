@@ -1,25 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './cadastroPaciente.css';
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 
-const CadastroPaciente = () => (
-  <div className='content'>
-     <Svgs />
+const CadastroPaciente = () => {
 
-    <section className='form-paciente-texts'>
-    <h1 className='form-paciente-texts-titulo'>Cadastre-se</h1>
-    <h2 className='form-paciente-texts-subtitulo'> e encontre atendimento psicólogico próximo a você!</h2>
-    </section>
-    <div className='form-paciente-inputs-geral'>
-    <input className='form-paciente-inputs' type='text' placeholder='Nome completo' />
-    <input className='form-paciente-inputs' type='date' placeholder='Data de nascimento' />
-    <input className='form-paciente-inputs' type='text' placeholder='Telefone' />
-    <input className='form-paciente-inputs' type='email' placeholder='Email' />
-    <input className='form-paciente-inputs' type='text' placeholder='Senha' />
-    <button className='form-paciente-button'>Realizar cadastro</button>
-  </div>
-  </div>
-  
-);
+ const [valor, setValue] = useState({});
 
-export default CadastroPaciente;
+
+  return (
+    <div className='content'>
+      <Svgs />
+
+      <section className='form-paciente-texts'>
+        <h1 className='form-paciente-texts-titulo'>Cadastre-se</h1>
+        <h2 className='form-paciente-texts-subtitulo'> e encontre atendimento psicólogico próximo a você!</h2>
+      </section>
+      <div className='form-paciente-inputs-geral'>
+        <input className='form-paciente-inputs' type='text' placeholder='Nome completo' />
+        <input className='form-paciente-inputs' type='date' placeholder='Data de nascimento' />
+        <input className='form-paciente-inputs' type='text' placeholder='Telefone' />
+        <input className='form-paciente-inputs' type='email' placeholder='Email' />
+        <input className='form-paciente-inputs' type='text' placeholder='Senha' />
+        <button className='form-paciente-button'>Realizar cadastro</button>
+      </div>
+    </div>
+
+  );
+}
+
+  export default CadastroPaciente;
