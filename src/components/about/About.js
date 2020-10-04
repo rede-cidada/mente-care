@@ -17,7 +17,7 @@ const About = () => (
             </div>
       
             <div className="box-description">
-                <h2 className="description">Agendar consultas não precisa ser complicado. O Mente Care conecta pacientes a especialistas da saúde</h2>
+                <h2 className="description">Agendar consultas não precisa ser complicado. A Mente Care conecta pacientes a especialistas da saúde mental.</h2>
             </div>
 
         </section>
