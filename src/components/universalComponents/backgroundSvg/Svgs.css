@@ -66,6 +66,9 @@
 
     .third-svg, .second-svg, .first-svg{
 animation: none;
+display: none;
     }
+   
+
    
 }

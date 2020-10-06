@@ -1,7 +1,7 @@
 import React from 'react';
 import './faleConosco.css';
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
-
+import call from './assets/video-calling.png'
 
 const FaleConosco = () => (
   <div className='container-faleConosco'>
@@ -9,8 +9,8 @@ const FaleConosco = () => (
 
 
     <div className='faleConosco-texts'>
-    <h1 className='faleConosco-texts1'>Quer falar com</h1>
-    <h2 className='faleConosco-texts1'>a gente?</h2>
+    <h1 className='faleConosco-texts1'>Quer falar com a gente?</h1>
+
     <p className='faleConosco-texts2'>É só mandar sua mensagem por aqui ou por nossas redes.</p>
     <p className='faleConosco-texts2'></p>
     </div>
@@ -25,11 +25,9 @@ const FaleConosco = () => (
     </div>
     
     </div>
+
+    <img className="img-faleconosco" src={call} alt="calling" />
     
-    { /* PARA IMAGEM!  
-    <div className='faleConosco-img'>
-    <img className="img" src={pessoaPc} alt="pessoa mexendo no computador" />
-    </div> */ }
    
     </div>
     </div>

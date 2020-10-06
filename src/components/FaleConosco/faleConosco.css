@@ -1,122 +1,144 @@
 .container-faleConosco {
-    color: #0b3346;
-    font-size: max(12px, 1.5vw);
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 93vh;
-    flex-direction: column;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 93%;
+  flex-direction: column;
+  position: relative;
+  padding-top: 40px;
 }
 
 .faleConosco-texts {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    width: 100%;
-    margin-top: 140px; 
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  width: 100%;
 }
 
 .faleConosco-texts1 {
-    font-size: 50px;
-  }
-
+  font-size: max(30px, 3vw);
+  background-color: white;
+width: 80%;
+max-width: 650px;
+  margin-bottom: 10px;
+}
 
 .faleConosco-texts2 {
-    font-size: 16px;
-    margin-top: 15px;
+  width: 50%;
+  max-width: 500px;
+  font-size: max(16px, 1.7vw);
 }
 
 .faleConosco-form-area {
-    display: flex;
+  display: flex;
 }
 
 .faleConosco-form-area2 {
-  width: 50%;
+  width: 60%;
   padding-left: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .faleConosco-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 30px;
-  }
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
 
 .faleConosco-form-input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: none;
-    width: 60%;
-    height: 30px;
-  }
- 
-  .faleConosco-form-input-msg {
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: none;
-    width: 60%;
-    height: 50px;
-    padding: 50px;
-  }
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+
+  height: 40px;
+}
+
+.faleConosco-form-input-msg {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  height: 50px;
+  padding: 50px;
+}
 
 .faleConosco-form-button {
-    margin-bottom: 100px;
-    border-radius: 5px;
-    background: #0b3346;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    border: none;
-    width: 25%;
-    height: 35px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  background: #0b3346;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: none;
+  width: 25%;
+  height: 45px;
+}
+
+.img-faleconosco {
+  display: block;
+  width: 35%;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  opacity:1;
+}
+
+@media (max-width: 800px) {
+  .container-faleConosco {
+    display: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .faleConosco-texts {
+    padding: 0;
+    text-align: center;
+  }
+  .faleConosco-texts1{
+    margin: 20px auto;
+  }
+  .faleConosco-texts2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .faleConosco-form-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
   
-  .img {
-    height: 350px;
-    width: 630px;
-  } 
-
-  @media (max-width:600px) {
-    .container-faleConosco {
-     margin-top: 40px;
-     margin-bottom: 80px;
-     display: center;
-     text-align: center;
-    }
-    .faleConosco-texts1 {
-      font-size: 40px;
-      display: center;
-      text-align: center;
-    }
-    .faleConosco-texts, .faleConosco-texts2, .faleConosco-form-area {
-      display: center;
-      text-align: center;
-    }
-    .faleConosco-form-input {
-      width: 200%;
-      height: 30px;
-      justify-content: center;
-      align-items: center;
-    }
-    .faleConosco-form-button {
-      width: 100%;
-      height: 30px;
-    }
-    .faleConosco-form-input-msg {
-      padding: 50px;
-      width: 200%;
-      height: 30px;
-      justify-content: center;
-      align-items: center;
-    }
+  .faleConosco-form-area2{
+    padding: 0;
   }
-    
-   
+  
+  .faleConosco-form-input {
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .faleConosco-form-button {
+    width: 100%;
+    height: 40px;
+  }
+  .faleConosco-form-input-msg {
+    padding: 50px;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-faleconosco {
+    display: none;
+  }
+
+}

@@ -1,5 +1,4 @@
 .content {
-
   text-align: center;
   color: #0b3346;
   font-size: max(12px , 1.5vw);
@@ -13,6 +12,8 @@
 }
 
 .cadastro-texts {
+  position: relative;
+  z-index: 2;
   display: flex; 
   flex-direction: column;
   justify-content: center;
@@ -21,13 +22,14 @@
 }
 
 .cadastro-texts-titulo {
-  margin-top: 20px;
+ background-color: white;
   margin-bottom: 20px;
  font-size: max(30px, 3vw);
 }
 
 .cadastro-texts-subtitulo {
   margin-bottom: 20px;
+  background-color: white;
   font-size: max(23px, 2.3vw);
 }
 
@@ -45,7 +47,7 @@ width: 100%;
   border-radius: 8px;
   border: none;
   width: 70%;
-  height: 60px;
+  height: 50px;
 
 }
 
@@ -53,14 +55,20 @@ width: 100%;
   margin-bottom: 10px; 
   border-radius: 8px;
   background: #0b3346;
-  color: black;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border: none;
   width: 70%;
-  height: 60px;
+  height: 50px;
 }
-
+.hospital{
+  width:40%;
+  position: absolute;
+  bottom: 0%;
+  left: 100px;
+  opacity: 1;
+}
 @media(max-width:673px){
   .content{
     flex-direction: column;
@@ -70,4 +78,13 @@ width: 100%;
     justify-content: center;
     align-items: center;
   }
+  .cadastro-inputs {
+
+    height: 40px;
+  
+  }.hospital{
+   display: none;
+  }
+
+  
 }

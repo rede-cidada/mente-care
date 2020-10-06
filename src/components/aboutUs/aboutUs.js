@@ -16,25 +16,25 @@ const AboutUs = () => (
         <div className="aboutContent">
 
             <div className="aboutTitle">
-                <h1>Quem somos?</h1>
+                <h1> Quem somos?</h1>
             </div>
 
 
             <article>
-                <h2 className="txt">
+                <h2 className="txt1">
                     Somos a Mente Care e nosso objetivo é proporcionar as pessoas informações
                     e indicações sobre clínicas de psicologia ou psicólogos(as)
                     que ofereçam consultas gratuitas ou por um valor simbólico,
                     nos lugares mais próximos à elas.
             </h2>
-                <p className="txt">
+                <p className="txt1">
                     Você já parou para pensar em como é difícil encontrar ajuda especializada?
             </p>
-                <p className="txt">
+                <p className="txt1">
                     Primeiro você revira o livro do convênio ou busca na internet em busca de especialistas e clínicas.
                     Depois faz várias ligações e, se tudo der certo, consegue um horário para a mesma semana.
             </p>
-                <p className="txt">
+                <p className="txt1">
                     Mas não precisa ser assim!
             <span className="txtBold"> Por isso buscamos facilitar o acesso a ajuda para pessoas que precisan de ajuda psicologica o mais rapido possível.</span>
                 </p>
