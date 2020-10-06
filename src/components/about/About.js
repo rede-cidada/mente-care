@@ -6,8 +6,9 @@ import "../about/about.css"
 const About = () => (
     <>
 
+
         <section className="box-about">  
-       
+        <h1 className="title">O que esperar do APP ?</h1>
         <Svgs />
     
             <div className="box-img">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Redirect } from 'react-router-dom'
 import './Login.css'
 import Svgs from '../universalComponents/backgroundSvg/Svgs'
+import psico from './assets/psicologia.png'
 
 const Login = () => {
     const [value, setValue] = useState("");
@@ -31,6 +32,8 @@ const Login = () => {
             </form>
 
 
+
+        
             <Link to="/cadastro" className="link help">Eu quero Ajudar!</Link>
         </section>
     )

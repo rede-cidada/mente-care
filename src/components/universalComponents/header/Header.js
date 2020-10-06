@@ -27,7 +27,7 @@ const Header = () => {
 
                     <li className="li-header"><Link onClick={show} className="link" to="/about">Sobre o App</Link></li>
                     <li className="li-header"><Link onClick={show} className="link" to="/aboutUs">Quem Somos</Link></li>
-                    <li className="li-header"><Link onClick={show} className="link">Fale conosco</Link></li>
+                    <li className="li-header"><Link onClick={show} className="link" to="/faleConosco">Fale conosco</Link></li>
                     <li className="li-header"><Link onClick={show} className="link" to="/entrar">Entrar</Link></li>
 
                 </ul>

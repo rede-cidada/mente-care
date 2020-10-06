@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './cadastroPaciente.css';
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
+import lock from './assets/lock.png'
 
 const CadastroPaciente = () => {
 
@@ -23,6 +24,7 @@ const CadastroPaciente = () => {
         <input className='form-paciente-inputs' type='text' placeholder='Senha' />
         <button className='form-paciente-button'>Realizar cadastro</button>
       </div>
+      <img className="lock"src={lock} alt="lock"/>
     </div>
 
   );

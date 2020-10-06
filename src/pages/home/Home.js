@@ -11,7 +11,9 @@ import Login from '../../components/login/Login'
 import Cadastro from '../../components/cadastro/Cadastro'
 import Modal from '../../components/modal/Modal'
 import CadastroPaciente from '../../components/CadastroPaciente/CadastroPaciente'
+import FaleConosco from '../../components/FaleConosco/FaleConosco'
 import List from '../../components/list/list'
+
 function App() {
   return (
     <BrowserRouter>
@@ -45,18 +47,17 @@ function App() {
             <CadastroPaciente />
           </Route>
          
+          <Route exact path="/faleConosco">
+            <FaleConosco />
+          </Route>
          
           <Route exact path="/list">
             <List />
           </Route>
          
-         
-
-
           <Route exact path="/entrar">
             <Login />
           </Route>
-
 
           <Route >
             <ErrorPage />
@@ -64,7 +65,6 @@ function App() {
 
         </Switch>        
         
-
         <Footer />
       </div>
 
