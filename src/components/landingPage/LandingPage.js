@@ -2,7 +2,7 @@ import React from "react";
 import './LandingPage.css';
 import clock from './assets/img-ansiedade/clock.jpg'
 import garotanervosa from './assets/img-ansiedade/garota-nervosa.jpg'
-import homemtrabalhando from './assets/img-ansiedade/homem-trabalhando.jpg'
+import homemtrabalhando from './assets/img-ansiedade/homem-trabalhando.png'
 import meninoestressado from './assets/img-ansiedade/menino-estressado.jpg'
 
 const Landing = () => (
