@@ -7,6 +7,7 @@
   width: 100%;
   height: 90%;
   text-align: center;
+  padding-top: 30px;
 }
 
 .login-form {
@@ -22,13 +23,14 @@
 }
 legend {
   font-size: max(28px, 4vw);
+  font-weight: 600;
   padding: 10px 0;
   color: var(--third-color);
 }
 
 .login-inputs {
   padding: 10px;
-margin: 10px;
+  margin: 10px;
   border-radius: 8px;
   border: none;
   width: 70%;
@@ -37,6 +39,12 @@ margin: 10px;
   height: 15%;
   font-size: max(20px, 1.5vw);
 }
+
+.inputs-error{
+  border: 3px solid red;
+  
+}
+
 .login-button {
   display: flex;
   justify-content: center;
@@ -72,4 +80,37 @@ margin: 10px;
 }
 .help:hover{
 background-color: white;
+}
+
+.img-login{
+  width: 17%;
+  min-width: 150px;
+  margin: 20px 0;
+}
+.linkdark{
+  margin: 0;
+  background-color: var(--third-color);
+  color: white;
+}
+.msgError{
+  display: none;
+  position: absolute;
+  top: -30px;
+  background-color: red;
+  padding: 20px; 
+  color: white;
+  z-index: 4000;opacity: 0.8;
+  animation: error 10s;
+  animation-fill-mode: forwards;
+}
+
+.show-msgError{
+display: block;
+}
+
+@keyframes error{
+
+  100%{
+    opacity: 0;
+  }
 }

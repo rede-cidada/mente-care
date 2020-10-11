@@ -4,6 +4,7 @@ import mentelogo from '../header/assets/SVG/Ativo 5.png'
 import instagram from './assets/icon-instagram.png';
 import facebook from './assets/icon-facebook.png';
 import twitter from './assets/icon-twitter.png';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => (
@@ -12,9 +13,9 @@ const Footer = () => (
       <div className="txt-box">
         <div className="box">
           <ul className="list">
-            <li className="list-list">Sobre</li>
-            <li className="list-list">Quem Somos</li>
-            <li className="list-list">Fale Conosco</li>
+            <li className="list-list"><Link to='/about'>Sobre</Link></li>
+            <li className="list-list"><Link to='/aboutUs'>Quem Somos</Link></li>
+            <li className="list-list"><Link to='/faleConosco'>Fale Conosco</Link></li>
           </ul>
         </div>
 

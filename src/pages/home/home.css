@@ -6,8 +6,13 @@
   background:  var(--background-second-color);
  
 }
-
-
 .link{
   color: var(--third-color);
 }
+ button:hover{
+   cursor: pointer;
+transform: scale(1.04,1.04);
+}
+button:active{
+  transform: scale(.98,.98);
+  }

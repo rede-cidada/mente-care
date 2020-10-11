@@ -21,9 +21,8 @@ function App() {
         <Header />
         
         <Switch>
-          <Route exact path="/">
-            <HomeContent />
-          </Route>
+          <Route exact path="/" component={HomeContent} />
+        
 
           <Route exact path="/about">
             <About />

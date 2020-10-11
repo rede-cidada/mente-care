@@ -1,10 +1,9 @@
-
 .header-content {
+ 
   display: flex;
   align-items: center;
   height: 10%;
   background: white;
- 
 }
 .header-content .navBar {
   display: flex;
@@ -13,10 +12,8 @@
   width: 100%;
   padding: 0px 10px;
 }
-.header-content .logo{
+.header-content .logo {
   width: 35%;
-
-
 }
 
 .header-content .menu-mobile {
@@ -34,7 +31,8 @@
   background: var(--third-color);
   position: relative;
   z-index: 1001;
-} 
+}
+
 .header-content .menu-mobile .hamburguer::after,
 .header-content .menu-mobile .hamburguer::before {
   position: absolute;
@@ -50,58 +48,58 @@
   top: -7px;
 }
 
- .ul-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.ul-header {
+  width: 100%;
+  height: 100%;
   position: fixed;
   z-index: 1000;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   background: rgba(255, 255, 255, 0.95);
   transform: translateX(-100%);
   transition: 0.2s;
 }
-.show-ul{
+.show-ul {
   transform: translateX(0);
 }
-.header-content .navBar  .li-header {
+.header-content .navBar .li-header {
   padding: 25px;
   font-weight: 400;
 }
-.link{
+.link {
   position: relative;
 }
 
-.link::before{
+.link::before {
   position: absolute;
   bottom: -5px;
-  content:"";
+  content: "";
   width: 00%;
   height: 3px;
   background-color: cadetblue;
   transition: 0.4s;
 }
 
-.link:hover::before{
- width: 100%;
+.link:hover::before {
+  width: 100%;
 }
 
-@media (min-width:950px){
+@media (min-width: 950px) {
   .header-content .navBar {
     padding: 0px 40px;
   }
   .header-content .menu-mobile {
     display: none;
   }
-  .header-content .logo{
+  .header-content .logo {
     width: 45%;
-  
   }
- 
+
   .ul-header {
     display: flex;
     flex-direction: row;

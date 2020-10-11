@@ -9,7 +9,7 @@ const FaleConosco = () => (
 
 
     <div className='faleConosco-texts'>
-    <h1 className='faleConosco-texts1'>Quer falar com a gente?</h1>
+    <h1 className='faleConosco-texts1'><span>Quer falar com a gente?</span></h1>
 
     <p className='faleConosco-texts2'>É só mandar sua mensagem por aqui ou por nossas redes.</p>
     <p className='faleConosco-texts2'></p>
@@ -20,8 +20,8 @@ const FaleConosco = () => (
     <input className='faleConosco-form-input' type='text' placeholder='Nome completo' />
     <input className='faleConosco-form-input' type='email' placeholder='Email' />
     <input className='faleConosco-form-input' type='text' placeholder='Celular' />
-    <input className='faleConosco-form-input-msg' type='text' placeholder='Digite aqui sua mensagem' />  
-    <button className='faleConosco-form-button'>Enviar</button>
+    <textarea rows="5" cols="5" className='faleConosco-form-msg' placeholder="Digite aqui sua mensagem"></textarea>
+    <button  className='faleConosco-form-button'>Enviar</button>
     </div>
     
     </div>

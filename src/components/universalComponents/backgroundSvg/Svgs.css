@@ -1,74 +1,71 @@
-.svg{
-    fill: rgb(255, 255, 255);
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    bottom: 0;
+.svg {
+  fill: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
 }
 
-.third-svg{
-    animation-name: waves;
-	animation-duration: 2s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+.third-svg {
+  animation-name: waves;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-.second-svg{
-    animation-name: waves2;
-	animation-duration: 3s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+.second-svg {
+  animation-name: waves2;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-.first-svg{
-    animation-name: waves3;
-	animation-duration: 2s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-}
-
-@keyframes waves{
-    0%{
-        bottom: 0px;
-    }
- 50%{
-     bottom: 10px;
- }
-    100%{
-        bottom: 00px;
-    }
+.first-svg {
+  animation-name: waves3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-@keyframes waves2{
-    0%{
-        bottom: 0px;
-    }
- 50%{
-     bottom: 3px;
- }
-    100%{
-        bottom: 00px;
-    }
+@keyframes waves {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 00px;
+  }
 }
 
-@keyframes waves3{
-    0%{
-        bottom: 0px;
-    }
- 50%{
-     bottom: -5px;
- }
-    100%{
-        bottom: 00px;
-    }
-} 
+@keyframes waves2 {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 3px;
+  }
+  100% {
+    bottom: 00px;
+  }
+}
 
+@keyframes waves3 {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -5px;
+  }
+  100% {
+    bottom: 00px;
+  }
+}
 
-@media (max-width:650px){
-
-    .third-svg, .second-svg, .first-svg{
-animation: none;
-display: none;
-    }
-   
-
-   
+@media (max-width: 650px) {
+  .third-svg,
+  .second-svg,
+  .first-svg {
+    animation: none;
+    display: none;
+  }
 }

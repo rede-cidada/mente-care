@@ -16,7 +16,11 @@
   text-decoration: none;
   outline: none;
   list-style: none;
-  
+  transition: 0.3s;
     color: var(--third-color);
  
+}
+
+span{
+  background-color: white;
 }

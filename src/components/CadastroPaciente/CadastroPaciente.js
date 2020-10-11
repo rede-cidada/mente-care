@@ -13,8 +13,8 @@ const CadastroPaciente = () => {
       <Svgs />
 
       <section className='form-paciente-texts'>
-        <h1 className='form-paciente-texts-titulo'>Cadastre-se</h1>
-        <h2 className='form-paciente-texts-subtitulo'> e encontre atendimento psicólogico próximo a você!</h2>
+        <h1 className='form-paciente-texts-titulo'><span>Cadastre-se</span></h1>
+        <h2 className='form-paciente-texts-subtitulo'><span> e encontre atendimento psicólogico próximo a você!</span></h2>
       </section>
       <div className='form-paciente-inputs-geral'>
         <input className='form-paciente-inputs' type='text' placeholder='Nome completo' />
