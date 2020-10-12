@@ -3,16 +3,41 @@
   height: 100vh;
   min-height: 600px;
   font-family: "Montserrat", sans-serif;
-  background:  var(--background-second-color);
- 
-}
-.link{
+  background: var(--background-second-color);
   color: var(--third-color);
 }
- button:hover{
-   cursor: pointer;
-transform: scale(1.04,1.04);
+
+.dark {
+  background: var(--second-color);
+  color: var(--background-second-color);
 }
-button:active{
-  transform: scale(.98,.98);
-  }
+
+.button-darkMode {
+  position: absolute;
+  z-index: 5;
+}
+
+.link {
+  color: var(--third-color);
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.04, 1.04);
+}
+button:active {
+  transform: scale(0.98, 0.98);
+}
+
+.button-darkMode {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+}
+.button-darkMode .dark{
+  
+}

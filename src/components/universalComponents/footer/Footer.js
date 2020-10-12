@@ -20,14 +20,14 @@ const Footer = () => (
         </div>
 
         <div className="box">
-         <img className="footer-logo" src={mentelogo} alt="logo"/>
-      
+          <img className="footer-logo" src={mentelogo} alt="logo" />
+
         </div>
 
         <div className="box">
           <p className="txt">
-          A Mente Care tem por objetivo ajudar pessoas a encontrar atendimento 
-          psicológico acessível e próximo a sua localidade.
+            A Mente Care tem por objetivo ajudar pessoas a encontrar atendimento
+            psicológico acessível e próximo a sua localidade.
              </p>
         </div>
       </div>
@@ -36,13 +36,13 @@ const Footer = () => (
       <p>fale@mentecare.com.br</p>
     </div>
     <div className="copyr-icones">
-    <p>Siga a Mente Care</p>
+      <p>Siga a Mente Care</p>
     </div>
 
     <article className="copyr-icones2">
-    <a href="https://www.instagram.com/" target="_blank"><img src={instagram} /></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src={facebook} /></a>
-    <a href="https://www.twitter.com/" target="_blank"><img src={twitter} /></a>
+      <a href="https://www.instagram.com/" ><img src={instagram} alt="insta-logo"/></a>
+      <a href="https://www.facebook.com/" ><img src={facebook} alt="face-logo" /></a>
+      <a href="https://www.twitter.com/" ><img src={twitter} alt="twitter-logo" /></a>
     </article>
 
   </footer>

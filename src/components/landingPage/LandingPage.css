@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap");
 
-* { 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .slider-section {
   display: flex;
   justify-content: center;
@@ -22,10 +16,9 @@
 
 .slider {
   display: flex;
-  
   width: 350px;
   height: 200px;
-  background: url(./img/img-slider/1mapa.png);
+  background: url('./assets/img-slider/1mapa.png');
   animation: slide 30s infinite;
   background-size: cover;
   margin: 0;
@@ -34,31 +27,31 @@
 
 @keyframes slide {
   0% {
-    background: url(./img/img-slider/1mapa.png);
+    background: url('./assets/img-slider/1mapa.png');
     background-size: cover;
   }
   20% {
-    background: url(./img/img-slider/1sobre.png);
+    background: url('./assets/img-slider/1sobre.png');
     background-size: cover;
   }
   40%{
       
-      background: url(./img/img-slider/1entrar.png);
+      background: url('./assets/img-slider/1entrar.png');
       background-size: cover;
   }
   60%{
            
-      background: url(./img/img-slider/1clinicacadastro.png);
+      background: url('./assets/img-slider/1clinicacadastro.png');
       background-size: cover;
   }
   80%{
       
-      background: url(./img/img-slider/1quemsomos.png);
+      background: url('./assets/img-slider/1quemsomos.png');
       background-size: cover;
   }
   100%{
      
-      background: url(./img/img-slider/1faleconosco.png);
+      background: url('./assets/img-slider/1faleconosco.png');
       background-size: cover;
   }
 }
@@ -204,7 +197,7 @@
     .slider {
       width: 800px;
       height: 400px;
-      background: url(./img/cadastro.png);
+      background: url('./assets/img-slider/1clinicacadastro.png');
       background-size: cover;
       margin: 100px auto;
       animation: slide 20s infinite;

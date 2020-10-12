@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 import "./list.css";
+import {Dark} from '../../services/Dark'
 
-import logo1 from "./assets/logo1.png";
 
 
 
@@ -35,7 +35,7 @@ const List = () => {
 
 
         <>
-            <div className="divMain">
+            <div className={`divMain ${Dark[0].dark} `}>
 
 
                 <h1 className="title-list" >Todas as Clínicas</h1>

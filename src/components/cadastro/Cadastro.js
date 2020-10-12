@@ -12,7 +12,7 @@ const Cadastro = () => (
     </section >
     <div className='cadastro-div-inputs'>
     <input className='cadastro-inputs' type='text' placeholder='Nome da Clínica' />
-    <input className='cadastro-inputs' type='text' placeholder='CNPJ' />
+    <input className='cadastro-inputs' type='text' placeholder='Cidade' />
     <input className='cadastro-inputs' type='text' placeholder='Valor da consulta' />
     <input className='cadastro-inputs' type='text' placeholder='Descrição' />
     <input className='cadastro-inputs' type='text' placeholder='Senha' />

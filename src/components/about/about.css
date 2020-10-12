@@ -13,6 +13,7 @@
   text-align: right;
   margin-right: 100px;
   margin-top: 50px;
+  color: var(--third-color);
 }
 
 
@@ -28,10 +29,10 @@
   align-items: center;
   width: 250px;
   background-color: white;
-  border-top: 40px solid var(--second-color);
-  border-bottom: 40px solid var(--second-color);
-  border-left: 7px solid var(--second-color);
-  border-right: 7px solid var(--second-color);
+  border-top: 40px solid var(--third-color);
+  border-bottom: 40px solid var(--third-color);
+  border-left: 7px solid var(--third-color);
+  border-right: 7px solid var(--third-color);
   border-radius: 30px;
   height: 450px;
   margin-left: 15%;

@@ -4,12 +4,15 @@ import "./homecontent.css"
 import Svgs from '../universalComponents/backgroundSvg/Svgs'
 import { Link } from "react-router-dom";
 import Paciente from '../../services/Paciente'
+import {Dark} from '../../services/Dark'
 
 const HomeContent = () => {
   const [valor, setValue] = useState("");
   const [busca, setBusca] = useState("");
   const [date, setDate] = useState([]);
   const [showList, setShowList] = useState(false)
+
+
 
 
   const titleLog = () => {
@@ -25,7 +28,6 @@ const HomeContent = () => {
     return <h1 className='home-titulo'>Mente Care</h1>
 
   }
-
 
   useEffect(() => {
     const getData = async () => {
@@ -63,11 +65,11 @@ const HomeContent = () => {
 
         <h3 className='home-h3'>OU veja algumas opções perto de você</h3>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26566.87386523531!2d-34.91813139110144!3d-8.183664029483205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spsic%C3%B3logos!5e0!3m2!1spt-BR!2sbr!4v1602417878000!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26566.87386523531!2d-34.91813139110144!3d-8.183664029483205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spsic%C3%B3logos!5e0!3m2!1spt-BR!2sbr!4v1602417878000!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
       </div>
 
-      <div className='list-main'>
+      <div className={`list-main ${Dark[0].dark} `}>
 
 
         <h2 id="teste" className="list-title">Clínicas em {busca} </h2>

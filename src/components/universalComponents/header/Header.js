@@ -2,12 +2,10 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import './header.css'
 import mentelogo from './assets/SVG/Ativo 5.png'
-import Paciente from '../../../services/Paciente'
+
 const Header = () => {
 
     const [showMenu, setShowMenu] = useState(false)
-
-    const [teste , setTeste] = useState("entrar")
 
     const show = () => {
         setShowMenu(!showMenu)
@@ -35,7 +33,7 @@ const Header = () => {
                     <li className="li-header"><Link onClick={show} className="link" to="/faleConosco">Fale conosco</Link></li>
                   
                   
-                    <li className="li-header"> <Link onClick={show} className="link" to={teste}>Entrar</Link></li>
+                    <li className="li-header"> <Link onClick={show} className="link" to="/entrar">Entrar</Link></li>
 
                 </ul>
 

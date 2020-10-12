@@ -9,12 +9,7 @@ const Landing = () => (
     <div className="landing-content">
     <section className="slider-section">
       <div className="sliderBx">
-       
-        
-
-
       </div>
-
     </section>
     <section className="info-section1">
       <div className="ansiedade-info">

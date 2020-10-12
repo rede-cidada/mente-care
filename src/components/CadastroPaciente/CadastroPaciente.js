@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './cadastroPaciente.css';
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 import lock from './assets/lock.png'
 
 const CadastroPaciente = () => {
 
- const [valor, setValue] = useState({});
+
 
 
   return (
