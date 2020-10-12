@@ -156,7 +156,7 @@ iframe {
 .card-infos {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
 
   position: absolute;
@@ -170,9 +170,9 @@ iframe {
 }
 
 .card-infos p {
-  text-align: right;
+  text-align: center;
   width: 80%;
-  font-size: max(10px, 1vw);
+  font-size: max(12px, 1vw);
   margin: 20px 0;
 }
 
