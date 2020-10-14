@@ -1,6 +1,6 @@
 import React from 'react';
 import './landingPage.css';
-import foto3 from './img-site/3.png'
+import foto3 from './img-landingpage/3.png'
 
 const LandingPage = () => (
     <div className="landingpage">
