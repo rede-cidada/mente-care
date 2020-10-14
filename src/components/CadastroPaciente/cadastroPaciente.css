@@ -30,7 +30,7 @@
   .form-paciente-texts-subtitulo {
     margin: 0 20px 50px 20px;
     font-size: max(23px, 2vw);
-    width: 100%;
+    width: 90%;
   }
   
   .form-paciente-inputs-geral {

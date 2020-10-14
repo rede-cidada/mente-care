@@ -19,7 +19,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
 legend {
   font-size: max(28px, 4vw);
@@ -40,9 +39,8 @@ legend {
   font-size: max(20px, 1.5vw);
 }
 
-.inputs-error{
+.inputs-error {
   border: 3px solid red;
-  
 }
 
 .login-button {
@@ -72,45 +70,45 @@ legend {
   height: 30%;
   max-height: 100px;
   cursor: pointer;
-  background: linear-gradient(white, transparent );
+  background: linear-gradient(white, transparent);
   margin-top: 20px;
   border-radius: 8px;
   font-size: max(20px, 2vw);
   transition: 0.5s;
 }
-.help:hover{
-background-color: white;
+.help:hover {
+  background-color: white;
 }
 
-.img-login{
+.img-login {
   width: 17%;
   min-width: 150px;
   margin: 20px 0;
 }
-.linkdark{
+.linkdark {
   margin: 0;
   background-color: var(--third-color);
   color: white;
 }
-.msgError{
+.msgError {
   display: none;
   position: absolute;
   top: -30px;
   background-color: red;
-  padding: 20px; 
+  padding: 20px;
   color: white;
-  z-index: 4000;opacity: 0.8;
+  z-index: 4000;
+  opacity: 0.8;
   animation: error 10s;
   animation-fill-mode: forwards;
 }
 
-.show-msgError{
-display: block;
+.show-msgError {
+  display: block;
 }
 
-@keyframes error{
-
-  100%{
+@keyframes error {
+  100% {
     opacity: 0;
   }
 }

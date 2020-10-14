@@ -15,30 +15,36 @@
   width: 100%;
 }
 
+
+
 .faleConosco-Resposta-Mensagem {
   display: none;
-  animation: sumir 10s;
-  animation-fill-mode: forwards; 
+
+
+}
+.mensagem-area{
+width: 100%;
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+
 }
 
 .faleConosco-Resposta {
-  position: absolute;
-  top: 0;
-  left: 50%;
+
   background: red;
   color: white;
   padding: 15px;
   display: block; 
-  opacity: 1;
+
 }
 
 .faleConosco-Resposta-Verdade {
   background: green;
 }
 
-@keyframes sumir {
-  100% {opacity: 0;}
-}
+
 
 
 .faleConosco-texts1 {

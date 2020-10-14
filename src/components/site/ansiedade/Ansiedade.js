@@ -1,16 +1,20 @@
 import React from "react";
-import './LandingPage.css';
-import clock from './assets/img-ansiedade/clock.jpg'
-import garotanervosa from './assets/img-ansiedade/garota-nervosa.jpg'
-import homemtrabalhando from './assets/img-ansiedade/homem-trabalhando.png'
-import meninoestressado from './assets/img-ansiedade/menino-estressado.jpg'
+import './ansiedade.css';
+import clock from './img-ansiedade/clock.jpg';
+import garotanervosa from './img-ansiedade/garota-nervosa.jpg';
+import homemtrabalhando from './img-ansiedade/homem-trabalhando.png';
+import meninoestressado from './img-ansiedade/menino-estressado.jpg'
 
-const Landing = () => (
+const Ansiedade = () => (
     <div className="landing-content">
+<<<<<<< HEAD:src/components/landingPage/LandingPage.js
     <section className="slider-section">
       <div className="sliderBx">
       </div>
     </section>
+=======
+
+>>>>>>> e6a98eeed8e274146cd899e314291f6dd8c2b02c:src/components/site/ansiedade/Ansiedade.js
     <section className="info-section1">
       <div className="ansiedade-info">
         <h1 className="info1">Transtorno de Ansiedade</h1>
@@ -88,4 +92,4 @@ const Landing = () => (
 
 
 
-export default Landing;
+export default Ansiedade;
