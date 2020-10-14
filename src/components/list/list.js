@@ -58,7 +58,7 @@ const List = () => {
                                     <h3> {nome}</h3>
 
                                     <p> {descricao}</p>
-                                    <button>Marcar</button>
+                                    <button className="button-marcar">Marcar</button>
                                 </div>
                             </div>
                         </div>

@@ -11,7 +11,7 @@
   position: absolute;
   top: 20px;
   text-align: right;
-  margin-right: 100px;
+  margin-right: 195px;
   margin-top: 50px;
 }
 
@@ -49,12 +49,12 @@
 
 .box-description {
   display: flex;
-  width: 40%;
+  width: 35%;
   margin-left: auto;
-  margin-right: 100px;
+  margin-right: 125px;
   align-items: flex-end;
   justify-content: center;
-  text-align: right;
+  text-align: inherit;
   flex-direction: column;
 }
 .buttonabout {
@@ -62,9 +62,10 @@
   z-index: 4;
   padding: 20px 30px;
   border-radius: 8px;
-  margin-top: 50px;
+  margin-top: 26px;
   color: white;
   background-color: var(--third-color);
+  margin-right: 170px;
 }
 .buttonabout:hover{
   cursor: pointer;
@@ -91,7 +92,6 @@ transform: scale(1.04,1.04);
    align-items: center;
  
   }
-
  
   .box-description {
   text-align: center;

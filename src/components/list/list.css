@@ -58,6 +58,13 @@
   color: gray;
 }
 
+.button-marcar {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+  border: 0 solid;
+}
+
 @media (max-width: 900px) {
   .card {
     height: none;
