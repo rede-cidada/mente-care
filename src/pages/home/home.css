@@ -36,8 +36,5 @@ button:active {
   height: 70px;
   border-radius: 50%;
   font-size: 18px;
-  border: none;
-}
-.button-darkMode .dark{
-  
+  border: 2px solid var(--second-color);
 }

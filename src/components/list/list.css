@@ -4,10 +4,14 @@
   align-items: center;
   flex-direction: column;
 
-
+  background: var(--background-second-color);
   padding-bottom: 150px;
   text-align: center;
   position: relative;
+}
+
+.darkMain{
+  background-color: var(--second-color);
 }
 
 .filter {
@@ -20,6 +24,10 @@
   width: 35px;
   cursor: pointer;
  
+}
+
+.filterDark{
+  fill: white;
 }
 
 .card {
