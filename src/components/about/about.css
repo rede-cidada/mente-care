@@ -11,7 +11,7 @@
   position: absolute;
   top: 20px;
   text-align: right;
-  margin-right: 195px;
+  margin-right: 100px;
   margin-top: 50px;
 }
 
@@ -51,7 +51,7 @@
   display: flex;
   width: 35%;
   margin-left: auto;
-  margin-right: 125px;
+  margin-right: 33px;
   align-items: flex-end;
   justify-content: center;
   text-align: inherit;
@@ -65,7 +65,7 @@
   margin-top: 26px;
   color: white;
   background-color: var(--third-color);
-  margin-right: 170px;
+  margin-right: 150px;
 }
 .buttonabout:hover{
   cursor: pointer;
@@ -109,6 +109,7 @@ transform: scale(1.04,1.04);
     margin: 40px auto;
   text-align: center;
   }
+  
 }
 
 .img-about {
