@@ -10,6 +10,6 @@ Você pode vizualizar o protótipo completo clicando aqui :
  
 https://www.figma.com/file/dElt7SMVeUHFYhvZ8SoTLQ/Mente-care?node-id=0%3A1
 
-## Código do Mente Info :
+## Repositório do Mente Info :
 
 https://github.com/freitasrayani/mente-info
