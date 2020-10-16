@@ -8,7 +8,7 @@ import rayani from "./assets/rc.jpeg";
 import wendell from "./assets/wm.jpg"
 import github from "./assets/github.svg";
 import linkedin from "./assets/linkedin.svg"
-import {Dark} from '../../services/Dark'
+import { Dark } from '../../services/Dark'
 const AboutUs = () => (
 
 
@@ -37,7 +37,7 @@ const AboutUs = () => (
             </p>
                 <p className="txt1">
                     Mas não precisa ser assim!
-           Por isso buscamos facilitar o acesso a ajuda para pessoas que precisan de ajuda psicologica o mais rapido possível.
+                    Por isso buscamos facilitar o acesso a ajuda para pessoas que precisan de ajuda psicologica o mais rapido possível.
                 </p>
 
             </article>
@@ -57,8 +57,8 @@ const AboutUs = () => (
                 <p>Design gráfico e estudante de Analise e desenvolvimento de sistemas.</p>
                 <ul className="links">
 
-                    <li><a href="https://www.linkedin.com/in/alisonmtmelo/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
-                    <li><a href="https://github.com/alisonmelo"><img src={github} alt="gitHub logo" /></a></li>
+                    <li className="background-white"><a href="https://www.linkedin.com/in/alisonmtmelo/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
+                    <li className="background-white"><a href="https://github.com/alisonmelo"><img src={github} alt="gitHub logo" /></a></li>
                 </ul>
 
             </div>
@@ -69,8 +69,8 @@ const AboutUs = () => (
                 <p>Turismóloga e entusiasta na área de Programação.
              </p>
                 <ul className="links">
-                    <li><a href="https://www.linkedin.com/in/lucianascandido/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
-                    <li><a href="https://github.com/lucianacscandido" ><img src={github} alt="gitHub logo" /></a></li>
+                    <li className="background-white"><a href="https://www.linkedin.com/in/lucianascandido/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
+                    <li className="background-white"><a href="https://github.com/lucianacscandido" ><img src={github} alt="gitHub logo" /></a></li>
 
                 </ul>
             </div>
@@ -80,8 +80,8 @@ const AboutUs = () => (
                 <h3>Dev Front-End | UI Designer</h3>
                 <p>jovem audaz amante de tecnologia</p>
                 <ul className="links">
-                    <li><a href="https://www.linkedin.com/in/markus-dennys-abb8551ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
-                    <li><a href="https://github.com/markDennys" ><img src={github} alt="gitHub logo" /></a></li>
+                    <li className="background-white"><a href="https://www.linkedin.com/in/markus-dennys-abb8551ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
+                    <li className="background-white"><a href="https://github.com/markDennys" ><img src={github} alt="gitHub logo" /></a></li>
 
                 </ul>
 
@@ -93,8 +93,8 @@ const AboutUs = () => (
                 <p>jovem audaz amante de tecnologia</p>
                 <ul className="links">
 
-                    <li><a href="https://www.linkedin.com/in/rayani-freitas-a118541ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
-                    <li><a href="https://github.com/freitasrayani" ><img src={github} alt="gitHub logo" /></a></li>
+                    <li className="background-white"><a href="https://www.linkedin.com/in/rayani-freitas-a118541ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
+                    <li className="background-white"><a href="https://github.com/freitasrayani" ><img src={github} alt="gitHub logo" /></a></li>
                 </ul>
 
             </div>
@@ -105,8 +105,8 @@ const AboutUs = () => (
                 <p>jovem audaz amante de tecnologia</p>
                 <ul className="links">
 
-                    <li><a href="https://www.linkedin.com/in/wendell-matheus-8018721ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
-                    <li><a href="https://github.com/WendellMatheus"><img src={github} alt="gitHub logo" /></a></li>
+                    <li className="background-white"><a href="https://www.linkedin.com/in/wendell-matheus-8018721ab/" ><img src={linkedin} alt="linkedIn logo" /></a></li>
+                    <li className="background-white"><a href="https://github.com/WendellMatheus"><img src={github} alt="gitHub logo" /></a></li>
                 </ul>
             </div>
 
