@@ -12,9 +12,6 @@ const HomeContent = () => {
   const [date, setDate] = useState([]);
   const [showList, setShowList] = useState(false)
 
-
-
-
   const titleLog = () => {
     let i = 0
     while (i < Paciente.length) {
@@ -94,7 +91,7 @@ const HomeContent = () => {
                     <h3> {nome}</h3>
 
                     <p> {descricao}</p>
-                    <button>Marcar</button>
+                    <button className={Paciente[0].on === 0 ? "button-agend" : "showBUtton-agend"} >Marcar</button>
                   </div>
                 </div>
               </div>

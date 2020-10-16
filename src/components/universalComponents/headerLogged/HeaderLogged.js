@@ -4,7 +4,7 @@ import './header.css'
 import mentelogo from './assets/SVG/Ativo 5.png'
 import Paciente from '../../../services/Paciente'
 
-const Header = () => {
+const HeaderLogged = () => {
 
     const [showMenu, setShowMenu] = useState(false)
 
@@ -21,13 +21,7 @@ const Header = () => {
         }
     }
 
-    const itemNav = () => {
-        if(Paciente[0].on === 0){
-            return <Link onClick={show} className="link" to="/entrar">Entrar</Link>
-        } else{
-            return <Link onClick={desolgar} className="link" to="/">Sair</Link>
-        }
-    }
+
 
     return (
 
@@ -47,7 +41,7 @@ const Header = () => {
                     <li className="li-header"><Link onClick={show} className="link" to="/about">Sobre o App</Link></li>
                     <li className="li-header"><Link onClick={show} className="link" to="/faleConosco">Fale conosco</Link></li>
                     <li className="li-header">
-                      {itemNav()}
+                        <Link onClick={desolgar} className="link" to="/">Sair</Link>
                     </li>
 
                 </ul>
@@ -61,4 +55,4 @@ const Header = () => {
 
 
 
-export default Header 
+export default HeaderLogged 

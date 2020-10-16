@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Svgs from '../../components/universalComponents/backgroundSvg/Svgs'
 import "./list.css";
 import { Dark } from '../../services/Dark'
-
+import Paciente from '../../services/Paciente'
 
 
 
@@ -58,7 +58,7 @@ const List = () => {
                                     <h3> {nome}</h3>
 
                                     <p> {descricao}</p>
-                                    <button>Marcar</button>
+                                    <button className={Paciente[0].on === 0 ? "button-agend" : "showBUtton-agend"} >Marcar</button>
                                 </div>
                             </div>
                         </div>

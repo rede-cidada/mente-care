@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Header from '../../components/universalComponents/header/Header'
+import HeaderLogged from '../../components/universalComponents/headerLogged/HeaderLogged'
 import HomeContent from '../../components/homeContent/HomeContent'
 import About from '../../components/about/About'
 import Footer from '../../components/universalComponents/footer/Footer'
@@ -14,7 +15,7 @@ import CadastroPaciente from '../../components/CadastroPaciente/CadastroPaciente
 import FaleConosco from '../../components/FaleConosco/FaleConosco'
 import List from '../../components/list/list'
 import { Dark } from '../../services/Dark'
-
+import Paciente from '../../services/Paciente'
 
 function App() {
 
@@ -26,12 +27,12 @@ function App() {
   return (
     <BrowserRouter>
       < div className={`container ${Dark[0].dark}`}>
-        <Header />
+        {Paciente[0].on === 0 ? <Header /> : <HeaderLogged />}
 
         <button className={darkMode === true ? "button-darkMode" : "button-darkMode dark"} onClick={() => setDark(!darkMode)}>
-        {darkMode === false ? "Dark" : "Light"}
+          {darkMode === false ? "Dark" : "Light"}
         </button>
-       
+
         <Switch>
           <Route exact path="/"  >
             <HomeContent />

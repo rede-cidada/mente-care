@@ -106,7 +106,12 @@ legend {
 .show-msgError {
   display: block;
 }
-
+.linkLogin{
+  color: var(--third-color);
+}
+.linkLogindark{
+  color: white;
+}
 @keyframes error {
   100% {
     opacity: 0;

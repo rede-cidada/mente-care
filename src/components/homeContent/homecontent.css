@@ -87,8 +87,6 @@ iframe {
   padding: 50px;
 }
 
-
-
 .grid-card {
   width: 80%;
   display: grid;
@@ -178,6 +176,12 @@ iframe {
   margin: 20px 0;
 }
 
+.button-agend {
+  display: none;
+}
+.showButton-agend {
+  display: block;
+}
 .linkbtn {
   margin: 20px auto;
   background-color: white;
